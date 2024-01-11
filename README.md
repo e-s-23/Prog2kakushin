@@ -66,31 +66,35 @@ EOF
 
 ## プログラム2について(01/09 Numpyを用いたプログラム)
 ### 微積分プログラム
-微積分と結果に基づいてアニメーショングラフを作成します
+微積分と結果に基づいてアニメーショングラフを作成します.  
+扱えるデータなどの注意点は「使用方法」をご覧ください.
 ### DEMO
+$x^3+5x^2$ の微分についてのデモ
+![x^3+5×x^2_微分](https://github.com/e-s-23/Prog2kakushin/assets/153585231/4e6b2dbe-18b9-446f-94b2-6385f6f66ae7)
 
-"hoge"の魅力が直感的に伝えわるデモ動画や図解を載せる
+### ポイント
+微積分を手軽に行えます.  
+また結果を動的なグラフで表示することによって,  
+理解しにくい増減や極値などの要素を視覚的に理解できます.(計算は自力でしてください...)  
+またgif,mp4のどちらかでアニメーションの保存ができます.
 
-# Features
+### 必要ライブラリ
+* numpy  
+* pandas  
+* matplotlib(pyplot,animation,FuncAnimation,PillowWriter)
+* IPython.display(HTML)  
+* sympy  
+* japanize_matplotlib
+japanize_matplotlibのみpipでのインストールが必要です.  
 
-"hoge"のセールスポイントや差別化などを説明する
-
-# Requirement
-
-"hoge"を動かすのに必要なライブラリなどを列挙する
-
-* huga 3.5.2
-* hogehuga 1.0.2
-
-# Installation
-
-Requirementで列挙したライブラリなどのインストール方法を説明する
-
+Colab環境で以下を実行してください.  
 ```bash
-pip install huga_package
+!pip install japanize_matplotlib
 ```
 
-# Usage
+その他のライブラリについてはpipは必要ありません.
+
+### 使用方法
 
 DEMOの実行方法など、"hoge"の基本的な使い方を説明する
 
@@ -104,21 +108,5 @@ python demo.py
 
 注意点などがあれば書く
 
-# Author
-
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-
-# License
-ライセンスを明示する
-
-"hoge" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
-
-社内向けなら社外秘であることを明示してる
-
-"hoge" is Confidential.
 ## 01/16 画像処理を用いたプログラム
 OpenCV,Turtleなどを用いる。(work3)
