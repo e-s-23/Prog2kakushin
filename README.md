@@ -95,8 +95,7 @@ Colab環境で以下を実行してください.
 その他のライブラリについてはpipは必要ありません.
 
 ### 使用方法
-
-DEMOの実行方法など、"hoge"の基本的な使い方を説明する
+work2.ipynbよりcolab
 
 ```bash
 git clone https://github.com/hoge/~
