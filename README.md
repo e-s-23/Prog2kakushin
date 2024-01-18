@@ -211,25 +211,25 @@ work3.ipynbをクローンすればcolab環境上で実行できると思いま�
 5. リザルトの表示
 手札はランダムで9枚作成されます.
 
-~元画像作成~  
+####元画像作成####  
 ![Blue](https://github.com/e-s-23/Prog2kakushin/assets/153585231/f3c12f85-d3ac-4ded-ba83-a9355d801962)
 ![Red](https://github.com/e-s-23/Prog2kakushin/assets/153585231/2c306128-cea1-425e-97b1-5f567df9bb2b)  
 手札のもととなる以下の画像を作成します.  
 
-~手札の作成~  
+####手札の作成####  
 ![Blue1](https://github.com/e-s-23/Prog2kakushin/assets/153585231/f7545d67-29b6-4897-8e6a-e9ff03c52870)
 ![Red1](https://github.com/e-s-23/Prog2kakushin/assets/153585231/5654684e-d7e1-49ca-bbb3-3f941d90d16b)  
 手札を作成します.  
 色がつくマス目はランダムです.  
 被りが発生する恐れがありますが,頑張ってください.  
 
-~手札一覧の作成~  
+####手札一覧の作成####  
 ![Blue_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/bd7b3a69-a624-46e8-97e9-87dc1c1230c2)
 ![red_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/a31f685e-1719-460f-b755-35a048211036)  
 手札の一覧画像を作成します.  
 ファイルから開くなどして見ながらゲームすると楽です.  
 
-~ゲームの流れ~  
+####ゲームの流れ#### 
 ```bash
 Red:どの番号の札を出しますか:
 何回転させますか:
@@ -254,10 +254,13 @@ Red:どの番号の札を出しますか:
 終了すると盤面の画像が表示,保存されます.  
 ![result](https://github.com/e-s-23/Prog2kakushin/assets/153585231/87aa71ce-9ae2-45b2-a079-1fce2e50ca07)  
 
-~リザルトについて~
+####リザルトについて####
 盤面の画像を基にRGB画像の平均を算出します.  
 値が大きい方がより盤面を支配していることになり,勝利になります.  
-
+```bash
+Redの勝利！ Red score = 180  Blue score = 159
+```
+  
 ### 備考など  
 #### 作成経緯や感想
 某インク系ゲームのミニゲームを基に作ってみました.  
