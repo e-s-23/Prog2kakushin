@@ -224,8 +224,9 @@ work3.ipynbをクローンすればcolab環境上で実行できると思いま�
 被りが発生する恐れがありますが,頑張ってください.  
 
 #### 手札一覧の作成  
-![Blue_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/bd7b3a69-a624-46e8-97e9-87dc1c1230c2)
-![red_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/a31f685e-1719-460f-b755-35a048211036)  
+<img src="![Blue_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/bd7b3a69-a624-46e8-97e9-87dc1c1230c2)" width="150">
+<img src="![red_grid](https://github.com/e-s-23/Prog2kakushin/assets/153585231/a31f685e-1719-460f-b755-35a048211036)" width="150">  
+
 手札の一覧画像を作成します.  
 ファイルから開くなどして見ながらゲームすると楽です.  
 
@@ -248,7 +249,7 @@ Red:どの番号の札を出しますか:
 | 3 | 270 | 
   
 ※手札選択では1-9以外の値を使用すると再移入力を求められます.  
-  回転では4以上の値も利用できます.ループするだけなのでほぼ意味はないと思います.  
+　回転では4以上の値も利用できます.ループするだけなのでほぼ意味はないと思います.  
 
 盤面は徐々に色が落ちていきます.  
 出す手札と回転量を考えましょう.  
