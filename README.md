@@ -214,7 +214,7 @@ work3.ipynbをクローンすればcolab環境上で実行できると思いま�
 #### 元画像作成  
 ![Blue](https://github.com/e-s-23/Prog2kakushin/assets/153585231/f3c12f85-d3ac-4ded-ba83-a9355d801962)
 ![Red](https://github.com/e-s-23/Prog2kakushin/assets/153585231/2c306128-cea1-425e-97b1-5f567df9bb2b)  
-手札のもととなる以下の画像を作成します.  
+手札のもととなる上の画像を作成します.  
 
 #### 手札の作成  
 ![Blue1](https://github.com/e-s-23/Prog2kakushin/assets/153585231/f7545d67-29b6-4897-8e6a-e9ff03c52870)
